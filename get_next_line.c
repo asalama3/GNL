@@ -6,7 +6,7 @@
 /*   By: asalama <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/07 15:27:23 by asalama           #+#    #+#             */
-/*   Updated: 2016/01/19 19:11:08 by asalama          ###   ########.fr       */
+/*   Updated: 2016/01/19 20:34:28 by asalama          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int		read_fd(t_list *lst, int const fd)
 	char	buf[BUFF_SIZE];
 	char	*tmp;
 
-	while ()
+	while (ft_strchr((lst->content)->mem, '\n') == NULL 
 
 }
 
