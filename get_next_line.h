@@ -6,7 +6,7 @@
 /*   By: asalama <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/08 11:54:12 by asalama           #+#    #+#             */
-/*   Updated: 2016/01/19 19:59:27 by asalama          ###   ########.fr       */
+/*   Updated: 2016/01/26 14:24:25 by asalama          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,6 @@
 # include "libft/libft.h"
 # include <unistd.h>
 # include <stdlib.h>
-
-typedef struct	s_gnl;
-{
-	int		fd;
-	char	*mem;
-}				t_gnl;
 
 int		get_next_line(int const fd, char **line);
 
